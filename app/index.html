@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    @@include('css.html')
+</head>
+
+<body>
+    @@include('header.html')
+    <div class="index">首页</div>
+    @@include('footer.html')
+    <script>
+        var page = new Page({
+            onReady: function() {
+                this.hello();
+            },
+            hello: function() {
+                console.log('hello world')
+            }
+        });
+    </script>
+</body>
+
+</html>

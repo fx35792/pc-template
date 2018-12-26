@@ -1,0 +1,118 @@
+/*定义公共样式*/
+$color-666: #666 ;
+/*header1 */
+.navigation {
+  height: 70px;
+  width: 100%;
+  color: #fff;
+  background-color: #0080d2;
+  margin: 0 auto;
+  .nav-left1 {
+    img.logo {
+      margin-top: 20px;
+    }
+  }
+  .nav-left2 {
+    margin: 16px 0 0 90px;
+    font-size: 16px;
+    width: 640px;
+    .nav-item {
+      width: 107px;
+      height: 39px;
+      line-height: 39px;
+      float: left;
+      text-align: center;
+      margin-right: 2px;
+      border-radius: 3px;
+      position: relative;
+      display: block;
+      a {
+        color: $white;
+        display: block;
+        font-size: 18px;
+        &.nav-fir:hover {
+          color: $white;
+          &:after{
+            content: "";
+            border-bottom: 2px solid #fff;
+            position: absolute;
+            width: 20%;
+            top: 36px;
+            left: 50%;
+            margin-left: -10%;
+          }
+        }
+        &.current {
+          color: $white;
+          &:after{
+            content: "";
+            border-bottom: 2px solid #fff;
+            position: absolute;
+            width: 20%;
+            top: 36px;
+            left: 50%;
+            margin-left: -10%;
+          }
+        }
+      }
+    }
+    .dropbox {
+      position: absolute;
+      background-color: $white;
+      width: 87px;
+      top: 37px;
+      padding: 0 10px;
+      border: 1px solid #f0f0f0;
+      display: none;
+      z-index: 100;
+      left: -1px;
+      text-align: center;
+      li {
+        border-bottom: 1px solid #e8e8e8;
+        &:last-child{
+          border-bottom: none;
+        }
+        a{
+          color: #666;
+          font-size: 14px !important;
+        }
+        &:hover {
+          a {
+            color: #4ea0ff;
+          }
+        }
+      }
+    }
+  }
+  .nav-box {
+    height: 36px;
+  }
+  .nav-right {
+    width: 300px;
+    color: $white;
+    font-size: 18px;
+    margin-top: 18px;
+    .phone {
+      line-height: 35px;
+    }
+    span.apply {
+      cursor: pointer;
+      display: inline-block;
+      width: 140px;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      font-size: 16px;
+      color: #0080d2;
+      background: #f8f3f4;
+      border-radius: 5px;
+      -moz-box-shadow: -2px 1px 10px #4b58f5;
+      -webkit-box-shadow: -2px 1px 10px #4b58f5;
+      box-shadow: -2px 1px 10px #4b58f5;
+      &:hover{
+        background:#eee;
+      }
+    }
+  }
+}
+

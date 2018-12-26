@@ -1,0 +1,32 @@
+@import "color";
+@import "module/fn";
+/*定义公共样式*/
+$color-0080ff: #0080ff;
+$color-666: #666;
+$color-333: #333;
+$color-eee: #eee;
+$color-dedede: #dedede;
+$color-202020: #202020;
+$color-54abfd: #54abfd;
+$color-159cfd: #159cfd;
+$color-d7d7d7: #d7d7d7;
+$color-efefef: #efefef;
+$color-f8f8f8: #f8f8f8;
+$color-2b86f0: #2b86f0;
+$color-4ea0ff: #4ea0ff;
+$font14: 14px;
+$font16: 16px;
+$font18: 18px;
+$font20: 20px;
+$font22: 22px;
+$font26: 26px;
+$font30: 30px;
+$font34: 34px;
+$font36: 36px;
+$font42: 42px;
+$font41: 41px;
+$font57: 57px;
+body {
+    min-width: 1200px;
+}
+
